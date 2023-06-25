@@ -1,0 +1,85 @@
+<web-app>
+
+	<display-name>CNT 4714 Spring 2023 Servlet/JSP Home Page</display-name>
+
+	<welcome-file-list>
+    	<welcome-file>authenticationHome.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>rootUser</servlet-name>
+		<servlet-class>RootUserApp</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>rootUser</servlet-name>
+			<url-pattern>/rootUser</url-pattern>
+		</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>clientUser</servlet-name>
+		<servlet-class>ClientUserApp</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>clientUser</servlet-name>
+			<url-pattern>/clientUser</url-pattern>
+		</servlet-mapping>
+		
+	
+	<servlet>
+		<servlet-name>dataEntrySuppliers</servlet-name>
+		<servlet-class>DataEntryAppSuppliers</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>dataEntrySuppliers</servlet-name>
+			<url-pattern>/dataentrySuppliers</url-pattern>
+		</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>dataEntryParts</servlet-name>
+		<servlet-class>DataEntryAppParts</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>dataEntryParts</servlet-name>
+			<url-pattern>/dataentryParts</url-pattern>
+		</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>dataEntryJobs</servlet-name>
+		<servlet-class>DataEntryAppJobs</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>dataEntryJobs</servlet-name>
+			<url-pattern>/dataentryJobs</url-pattern>
+		</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>dataEntryShipments</servlet-name>
+		<servlet-class>DataEntryAppShipments</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>dataEntryShipments</servlet-name>
+			<url-pattern>/dataentryShipments</url-pattern>
+		</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>authenticate</servlet-name>
+		<servlet-class>AuthenticationApp</servlet-class>
+	</servlet>
+
+		<servlet-mapping>
+			<servlet-name>authenticate</servlet-name>
+			<url-pattern>/Authentication</url-pattern>
+		</servlet-mapping>
+
+</web-app>

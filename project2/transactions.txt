@@ -1,0 +1,14 @@
+	Withdrawal Agent WT1 issued withdrawal of $80 at: 02/04/23, 11:20:20 上午 EST Transaction Number: 8
+
+	Withdrawal Agent WT4 issued withdrawal of $88 at: 02/04/23, 11:20:21 上午 EST Transaction Number: 13
+
+	Withdrawal Agent WT5 issued withdrawal of $85 at: 02/04/23, 11:20:21 上午 EST Transaction Number: 14
+
+	Withdrawal Agent WT7 issued withdrawal of $78 at: 02/04/23, 11:20:22 上午 EST Transaction Number: 15
+
+Depositor Agent DT0 issued deposit of $435 at: 02/04/23, 11:20:26 上午 EST Transaction Number: 24
+
+	Withdrawal Agent WT6 issued withdrawal of $90 at: 02/04/23, 11:20:26 上午 EST Transaction Number: 25
+
+	Withdrawal Agent WT5 issued withdrawal of $88 at: 02/04/23, 11:20:27 上午 EST Transaction Number: 32
+
